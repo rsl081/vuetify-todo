@@ -20,7 +20,7 @@
           >
         </v-avatar>
         <div class="white--text text-subtitle-1 font-weight-bold">
-          John Santos
+          Max Ben Santos
         </div>
         <div class="white--text text-subtitle-2">
           jax__santos
