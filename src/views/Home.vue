@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <add-field-task></add-field-task>
+    <list-task  v-if="$store.state.tasks.length" />
+    <no-tasks v-else />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
+import AddFieldTask from '../components/Todo/AddFieldTask.vue'
+import ListTask from '../components/Todo/ListTask.vue'
+import NoTasks from '../components/Todo/NoTasks.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
-  }
+    AddFieldTask,
+    ListTask,
+    NoTasks,
+  },
 }
 </script>
