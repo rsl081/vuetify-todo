@@ -15,15 +15,15 @@
           size="70"
         >
           <img
-            src="https://cdn.vuetifyjs.com/images/john.jpg"
-            alt="John"
+            src="./assets/portpic3.png"
+            alt="Russel"
           >
         </v-avatar>
         <div class="white--text text-subtitle-1 font-weight-bold">
-          Max Ben Santos
+          Russel Rodriguez
         </div>
         <div class="white--text text-subtitle-2">
-          jax__santos
+          09616925025
         </div>
       </v-img>
 
